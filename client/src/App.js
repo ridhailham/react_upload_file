@@ -16,6 +16,7 @@ function App() {
     if(!saveImage) {
       alert("gambar belum diupload")
     } else {
+      
       let formData = new FormData()
       formData.append("photo", saveImage)
 
